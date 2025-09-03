@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven-3.9.6'  // Jenkins 中配置的 Maven 名称
-        jdk 'OpenJDK-8'      // Jenkins 中配置的 JDK 名称
+        maven 'Default'  // Jenkins 中配置的 Maven 名称
+        jdk 'Default'      // Jenkins 中配置的 JDK 名称
     }
 
     stages {
